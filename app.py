@@ -8,8 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-LANGCHAIN_API = os.getenv("LANGCHAIN_API")
-LANGSMITH_PROJECT = os.getenv("LANGSMITH_PROJECT")
+
 GEMINI_API = os.getenv("GOOGLE_API_KEY")
 
 #prompt template
